@@ -24,10 +24,6 @@ yarn run build
 Next.js
 NodeJs
 Express
-TypeScript
 React.js
-Apollo Client
-Graphql
-Tailwind.css
-font-awesome- soon
+Bulma.css
 ```
