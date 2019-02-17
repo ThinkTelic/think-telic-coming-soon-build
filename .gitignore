@@ -2,3 +2,5 @@
 /yarn.lock 
 /.vscode
 /.next
+/config
+.env.dev

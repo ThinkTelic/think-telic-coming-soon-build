@@ -1,17 +1,17 @@
 const nodemailer = require('nodemailer')
 const sgTransport = require('nodemailer-sendgrid-transport')
-const {COMPANY_EMAIL, SENDGRID_API_KEY} = require('../config/stringConstant')
+require('dotenv').config()
 
 const transporter = nodemailer.createTransport(sgTransport({
   auth: {
-    api_key: SENDGRID_API_KEY
+    api_key: process.env.SENDGRID_API_KEY
   }
 }))
 
 const send = ({ email, name, text }) => {
   const from = name && email ? `${name} <${email}>` : `${name || email}`
   const message = {
-    to: COMPANY_EMAIL,
+    to: process.env.COMPANY_EMAIL,
     from,
     subject: `Think Telic has a new message from ${from}`,
     html: `<b>${ text }</b>`
