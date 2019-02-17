@@ -1,0 +1,52 @@
+// Media queries Breakpoints variables
+$mobile-min: '600px';
+$tablet-min: '769px';
+$tablet-max: '1023px';
+$desktop-min: '1024px';
+$desktop-max: '1215px';
+
+// Helper classes
+.is-marginTop {
+  margin-top: 2rem;
+}
+.is-marginBottom {
+  margin-bottom: 2.5rem;
+}
+
+.is-marginBottom-25 {
+  margin-bottom: 0.25rem;
+  @media screen and (min-width: $mobile-min) {
+    margin-bottom: 1rem;
+  }
+}
+
+.is-marginLeft {
+  margin-left: 5.5rem;
+}
+
+.has-paddingLR {
+  padding: 0 1em 0 1em;
+  @media screen and (min-width: $mobile-min) {
+    padding: 0 2em 0 2em;
+  }
+}
+
+.is-cyan {
+  background-color: $highlight;
+}
+
+.is-borderBottomCyan {
+  border-bottom: 4px solid $highlight;
+  display: block;
+  height: 2px;
+  width: 100px;
+}
+
+.is-round {
+  border-radius: 17px;
+}
+
+.tt-button {
+  border-radius: 10px;
+  padding-top: 15px;
+}

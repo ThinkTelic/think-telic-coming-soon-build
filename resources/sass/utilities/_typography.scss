@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Biryani:300,400,600');
+
+//It needs to change depending on the bran
+$family-primary: 'Merriweather', serif;
+$family-secondary: 'Biryani', sans-serif;
+
+.is-merriweather {
+  font-family: $family-primary;
+  &.is-bold {
+    font-weight: 700;
+  }
+
+  .is-bold {
+    font-weight: 700;
+  }
+}
+
+.is-biryany {
+  font-family: $family-secondary;
+  &.is-bold {
+    font-weight: 600;
+  }
+
+  .is-bold {
+    font-weight: 600;
+  }
+}
+
+.is-bold-biryany {
+  font-weight: 600;
+}
+
+.is-bold-merriweather {
+  font-weight: 700;
+}
+
+.is-regular {
+  font-weight: 400;
+}
+
+.is-light {
+  font-weight: 300;
+}
+
+.is-bold {
+  font-weight: bold;
+}

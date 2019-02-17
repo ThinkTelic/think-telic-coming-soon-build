@@ -1,0 +1,26 @@
+{
+  "name": "think-telic-coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "node server.js",
+    "now-start": "NODE_ENV=production node server.js"
+  },
+  "author": "Think Telic",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "axios": "^0.18.0",
+    "bulma": "^0.7.1",
+    "express": "^4.16.4",
+    "next": "^6.1.2",
+    "node-sass": "^4.11.0",
+    "nodemailer": "^5.1.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
