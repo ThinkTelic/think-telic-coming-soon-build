@@ -8,5 +8,5 @@ module.exports = {
   COMPANY_TELEPHONE: '',
 
   //apis
-  SENDGRID_API_KEY: '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'
+  SENDGRID_API_KEY: ''
 }
